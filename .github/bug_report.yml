@@ -1,0 +1,20 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Which app version are you using (e.g. v1.0.0)?
+        Which API Provider are you using (e.g. Sypha Router, OpenRouter, Anthropic)?
+        Which Model are you using (e.g. Claude 3.7 Sonnet, GPT-4o)?
+        Steps to reproduce?
+        Expected vs actual behavior?
+        Relevant API request/response logs?
+        Additional context?
+        Screenshots (if any)?
+    validations:
+      required: true
